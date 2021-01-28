@@ -1,0 +1,31 @@
+import sys
+text = sys.stdin.readlines()
+for token in text:
+	token=token.split(' ')
+	print(token)
+	for c in token:
+		c=c.replace("A","#")
+		c=c.replace("E","#")
+		c=c.replace("I","#")
+		c=c.replace("O","#")
+		c=c.replace("U","#")
+		c=c.replace("a","#")
+		c=c.replace("e","#")
+		c=c.replace("i","#")
+		c=c.replace("o","#")
+		c=c.replace("u","#")
+		c=c.replace("é","#")
+		c=c.replace("ɔ","#")
+		c=c.replace("ɛ","#")
+		c=c.replace("Ɔ","#")
+		c=c.replace("ụ","#")
+		c=c.replace("ā","#")
+		c=c.replace("ī","#")
+		c=c.replace("ă","#")
+		c=c.replace("ị","#")
+		c=c.replace("ə","#")
+		c=c.replace("æ","#")
+		c=c.replace("ë","#")
+		if c  =='':
+			continue
+		print(c)
