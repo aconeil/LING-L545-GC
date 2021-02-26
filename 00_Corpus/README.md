@@ -1,5 +1,5 @@
 # README for Segmentation 
-### This code for segmenting texts in Yoruba has been built to correctly segement text with the following:
+### This code for segmenting texts in Akan has been built to correctly segement text with the following:
 * Sentences ending in a period, exclamation, or question mark
 * Lists starting with numerals
 * Initials of people
