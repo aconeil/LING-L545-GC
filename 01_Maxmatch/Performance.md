@@ -2,8 +2,8 @@ For the corpus of 541 Japanese sentences, this program performed with an error r
 Examples of evaluation of the maxmatch code:
 
 
-     | Text
------|------------------------------------------------------------------------------------
+Code | Text
+---- | ------------------------------------------------------------------------------------
 REF: | 新 し い   産 業   構 造   を   作   ら   な   け   れ   ば   い   け   な   い   。
 HYP: | 新 し い   産 業   構 造   を   作   ら   な   け   れ   ば   い   け   な   い   。
 EVA: |                           I       I   I           I       I       D
