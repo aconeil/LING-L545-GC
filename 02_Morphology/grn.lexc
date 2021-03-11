@@ -1,0 +1,45 @@
+Multichar_Symbols
+
+%>	! Start of the morpheme
+%<nom%>	! Noun
+%<gen%>	! Genitive
+%<loc%>	! Locative
+%{m%} ! Multicharacter symbol
+%<der_kue%> ! Nominal Past
+%<der_icha%> ! Comparative
+%<pl%> ! Plural
+%{g%} ! Surface g
+%{n%} ! nasal
+
+LEXICON Root
+
+Nouns ;
+
+LEXICON N
+
+%<n%>: CASE ;
+%<n%>: SUBST ;
+%<n%>: PL;
+
+LEXICON PL
+%<pl%>:%>%{n%}%{g%}uéra CASE ;
+LEXICON CASE
+
+%<nom%>: # ; ! ""
+%<gen%>:%>gui # ; ! "de"
+%<loc%>:%>{m%}e # ; ! "a, en"
+# ;
+
+LEXICON SUBST
+
+%<der_kue%>:%>kue # "weight: 1.0" ;
+%<der_icha%>:%>icha # ; ! "like"
+
+LEXICON Nouns
+
+ava:ava N ; ! "raza, gente"
+óga:óga N ; ! "casa"
+irũ:irũ N ; ! "amigo"
+apyka:apyka N ; ! "silla"
+akãvai:akãvai N ; ! "locura"
+tembiasa:tembiasa N ; ! "experiencia"
