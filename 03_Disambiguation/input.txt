@@ -1,0 +1,136 @@
+"<Tämä>"
+	"tämä" PRON Case=Nom Number=Sing PronType=Dem
+	"tämä" PRON Case=Gen Number=Sing PronType=Dem Typo=Yes
+"<aiheuttaa>"
+	"aiheuttaa" VERB InfForm=1 Number=Sing VerbForm=Inf Voice=Act
+	"aiheuttaa" VERB Mood=Ind Number=Sing Person=3 Tense=Pres VerbForm=Fin Voice=Act
+"<kuitenkin>"
+	"kuitenkin" ADV
+"<ongelmia>"
+	"ongelma" NOUN Case=Par Number=Plur
+"<,>"
+	"," PUNCT
+"<koska>"
+	"koska" SCONJ SELECT:22
+;	"koska" ADV SELECT:22
+"<minulla>"
+	"minä" PRON Case=Ade Number=Sing Person=1 PronType=Prs
+"<ei>"
+	"ei" AUX Number=Plur Person=3 Polarity=Neg Style=Coll VerbForm=Fin Voice=Act SELECT:28
+	"ei" AUX Number=Sing Person=3 Polarity=Neg Style=Coll VerbForm=Fin Voice=Act SELECT:28
+	"ei" AUX Number=Sing Person=3 Polarity=Neg VerbForm=Fin Voice=Act SELECT:28
+	"ei" AUX Number=Plur Person=1 Polarity=Neg Style=Coll VerbForm=Fin Voice=Act SELECT:28
+;	"eri" ADJ Typo=Yes SELECT:28
+;	"ei" VERB Number=Sing Person=3 Polarity=Neg VerbForm=Fin Voice=Act SELECT:28
+;	"ei" ADV SELECT:28
+;	"ei" VERB Number=Sing Person=0 Polarity=Neg VerbForm=Fin Voice=Act SELECT:28
+"<ole>"
+	"olla" VERB Mood=Imp Number=Sing Person=2 VerbForm=Fin Voice=Act
+	"olla" VERB Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin
+	"olla" AUX Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin
+	"olla" AUX Mood=Imp Number=Sing Person=2 VerbForm=Fin Voice=Act
+"<sopivaa>"
+	"sopiva" ADJ Case=Par Degree=Pos Number=Sing
+"<näyttöä>"
+	"näyttö" NOUN Case=Par Number=Sing
+"<(ostin>"
+	"*(ostin"
+"<tuollaisia>"
+	"tuollainen" ADJ Case=Par Degree=Pos Derivation=Lainen Number=Plur
+"<ledinäyttöjä>"
+	"ledi#näyttö" NOUN Case=Par Number=Plur
+"<,>"
+	"," PUNCT
+"<mutta>"
+	"mutta" CCONJ SELECT:22
+;	"mutta" ADV SELECT:22
+"<ne>"
+	"se" PRON Case=Nom Number=Plur PronType=Dem
+"<vievät>"
+	"viedä" VERB Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin Voice=Act
+"<liikaa>"
+	"liian" ADV Style=Coll
+	"liikaa" ADV
+"<pinnejä>"
+	"pinni" NOUN Case=Par Number=Plur
+"<ellen>"
+	"*ellen"
+"<osta>"
+	"ostaa" VERB Connegative=Yes Mood=Ind Tense=Pres VerbForm=Fin
+"<erillistä>"
+	"erillinen" ADJ Case=Par Degree=Pos Derivation=Llinen Number=Sing
+"<driver-chippiä>"
+	"driver#chip" NOUN Case=Par Number=Sing
+"<niille)>"
+	"*niille)"
+"<,>"
+	"," PUNCT
+"<josta>"
+	"joka" PRON Case=Ela Number=Sing PronType=Rel
+"<näkisi>"
+	"nähdä" VERB Connegative=Yes Mood=Cnd VerbForm=Fin
+	"nähdä" VERB Mood=Cnd Number=Sing Person=3 VerbForm=Fin Voice=Act
+"<annetut>"
+	"antaa" VERB Case=Nom Degree=Pos Number=Plur PartForm=Past VerbForm=Part Voice=Pass
+"<arvot>"
+	"arvo" NOUN Case=Nom Number=Plur
+"<.>"
+	"." PUNCT
+
+"<Sellaisen>"
+	"sellainen" ADJ Case=Gen Degree=Pos Derivation=Lainen Number=Sing
+"<myös>"
+	"myös" ADV
+"<sain>"
+	"saada" VERB Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin Voice=Act
+"<,>"
+	"," PUNCT
+"<vaikka>"
+	"vaikka" SCONJ SELECT:22
+	"vaikka" CCONJ SELECT:22
+;	"vaikka" ADV SELECT:22
+"<kuvaajana>"
+	"kuvaaja" NOUN Case=Ess Derivation=Ja Number=Sing
+"<toimineella>"
+	"toimia" VERB Case=Ade Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act
+"<Mintulla>"
+	"Minttu" PROPN Case=Ade Number=Sing
+"<olikin>"
+	"olla" AUX Clitic=Kin Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin Voice=Act
+	"olla" AUX Clitic=Kin Mood=Ind Number=Sing Person=0 Tense=Past VerbForm=Fin Voice=Act
+"<hieman>"
+	"hieman" ADV
+"<teknisiä>"
+	"tekninen" ADJ Case=Par Degree=Pos Derivation=Inen Number=Plur
+"<ongelmia>"
+	"ongelma" NOUN Case=Par Number=Plur
+"<kamerani>"
+	"kamera" NOUN Case=Gen Number=Sing Number[psor]=Sing Person[psor]=1
+"<kanssa>"
+	"kanssa" ADP AdpType=Post Number[psor]=Plur Person[psor]=1 Style=Coll SELECT:20
+	"kanssa" ADP AdpType=Post SELECT:20
+;	"kanssa" ADV SELECT:20
+"<.>"
+	"." PUNCT
+
+"<Omasta>"
+	"oma" ADJ Case=Ela Degree=Pos Number=Sing
+"<mielestään>"
+	"mieli" NOUN Case=Ela Number=Sing Person[psor]=3
+"<Martin>"
+	"Martin" PROPN Case=Nom Number=Sing
+"<olisi>"
+	"olla" AUX Mood=Cnd Number=Sing Person=3 VerbForm=Fin Voice=Act SELECT:26
+	"olla" AUX Mood=Cnd Number=Sing Person=1 Typo=Yes VerbForm=Fin Voice=Act SELECT:26
+	"olla" AUX Connegative=Yes Mood=Cnd VerbForm=Fin SELECT:26
+	"olla" AUX Mood=Cnd Number=Sing Person=0 VerbForm=Fin Voice=Act SELECT:26
+;	"olla" VERB Mood=Cnd Number=Sing Person=0 VerbForm=Fin Voice=Act SELECT:26
+;	"olla" VERB Mood=Cnd Number=Sing Person=3 VerbForm=Fin Voice=Act SELECT:26
+;	"olla" VERB Connegative=Yes Mood=Cnd VerbForm=Fin SELECT:26
+"<ansainnut>"
+	"ansaita" VERB Case=Nom Degree=Pos Number=Sing PartForm=Past VerbForm=Part Voice=Act
+"<paikan>"
+	"paikka" NOUN Case=Gen Number=Sing
+"<.>"
+	"." PUNCT
+
