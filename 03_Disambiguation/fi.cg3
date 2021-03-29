@@ -17,12 +17,12 @@ LIST CCONJ = CCONJ ;
 SECTION
 #These rules are probably not always true, but are commonly true
 # Choose adposition if previous word is in genitive
-SELECT ADP IF (-1 Gen)
+SELECT ADP IF (-1 Gen) ;
 # Select conjunctions following commas 
-SELECT CCONJ OR SCONJ IF (-1 (","))
+SELECT CCONJ OR SCONJ IF (-1 (",")) ;
 #SELECT SCONJ IF (-1 PUNCT)
 #select aux if word is between a noun/proper noun and a verb
-SELECT AUX IF (-1 NOUN)(1C VERB) 
-SELECT AUX IF (-1 PROPN)(1C VERB)
+SELECT AUX IF (-1 NOUN)(1C VERB) ;
+SELECT AUX IF (-1 PROPN)(1C VERB) ;
 #choose auxiliary if previous word is adessive and following word is "olla"
-SELECT AUX IF (-1 Ade)(1C ("olla"))
+SELECT AUX IF (-1 Ade)(1C ("olla")) ;
