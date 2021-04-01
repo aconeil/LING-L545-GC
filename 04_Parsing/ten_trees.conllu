@@ -1,0 +1,154 @@
+# sent_id = 2
+# text = Stueng háliidii ge oažžut johtui buoret oktavuođa sámi ja Bolivia eamiálbmot nuoraid gaskkas, go nuorat leat eamiálbmogiid boahtteáigi, mahkáš nuoraid lonuhanprográmma.
+1	Stueng	Stueng	PROPN	N	Case=Nom|Number=Sing	4	nsubj	_	_
+2	háliidii	háliidit	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	ge	ge	PART	Pcle	_	4	discourse	_	_
+4	oažžut	oažžut	VERB	V	VerbForm=Inf	0	root	_	_
+5	johtui	johtu	NOUN	N	Case=Ill|Number=Sing	4	obl	_	_
+6	buoret	buorre	ADJ	A	Degree=Cmp	7	amod	_	_
+7	oktavuođa	oktavuohta	NOUN	N	Case=Acc|Number=Sing	4	obj	_	_
+8	sámi	sápmi	NOUN	N	Case=Gen|Number=Sing	12	nmod:poss	_	_
+9	ja	ja	CCONJ	CC	_	8	cc	_	_
+10	Bolivia	Bolivia	PROPN	N	Case=Gen|Number=Sing	11	nmod:poss	_	_
+11	eamiálbmot	eamiálbmot	NOUN	N	Case=Gen|Number=Sing	8	conj	_	_
+12	nuoraid	nuorra	NOUN	N	Case=Gen|Number=Plur	4	obl	_	_
+13	gaskkas	gaskkas	ADP	Po	_	12	case	_	SpaceAfter=No
+14	,	,	PUNCT	CLB	_	19	punct	_	_
+15	go	go	SCONJ	CS	_	19	mark	_	_
+16	nuorat	nuorra	NOUN	N	Case=Nom|Number=Plur	19	nsubj	_	_
+17	leat	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	eamiálbmogiid	eamiálbmot	NOUN	N	Case=Gen|Number=Plur	19	nmod:poss	_	_
+19	boahtteáigi	boahtteáigi	NOUN	N	Case=Nom|Number=Sing	4	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	CLB	_	19	punct	_	_
+21	mahkáš	mahkáš	ADV	Adv	_	19	advmod	_	_
+22	nuoraid	nuorra	NOUN	N	Case=Gen|Number=Plur	23	nmod:poss	_	_
+23	lonuhanprográmma	lonuhanprográmma	NOUN	N	Case=Acc|Number=Sing	19	obj	_	SpaceAfter=No
+24	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = 3
+# text = Sávan didjiide lihku, vástidii Evo Morales.
+1	Sávan	sávvat	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+2	didjiide	don	PRON	Pron	Case=Ill|Number=Plur|Person=2|PronType=Prs	1	obl	_	_
+3	lihku	lihkku	NOUN	N	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	CLB	_	5	punct	_	_
+5	vástidii	vástidit	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	Evo	Evo	PROPN	N	_	5	nsubj	_	_
+7	Morales	Morales	PROPN	N	Case=Nom|Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = 4
+# text = Rievtti mielde lea duodjeluohkás gulahallanoahpaheaddji, muhto son ii leat doppe nu dávjá go oahppit sávvet.
+1	Rievtti	riekti	NOUN	N	Case=Gen|Number=Sing	3	obl	_	_
+2	mielde	mielde	ADP	Po	_	1	case	_	_
+3	lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	duodjeluohkás	duodjeluohkká	NOUN	N	Case=Loc|Number=Sing	3	obl	_	_
+5	gulahallanoahpaheaddji	gulahallanoahpaheaddji	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	CLB	_	3	punct	_	_
+7	muhto	muhto	CCONJ	CC	_	3	cc	_	_
+8	son	son	PRON	Pron	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	10	aux:neg	_	_
+10	leat	leat	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	doppe	doppe	ADV	Adv	_	10	advmod	_	_
+12	nu	nu	ADV	Adv	_	13	advmod	_	_
+13	dávjá	dávjá	ADV	Adv	_	10	advmod	_	_
+14	go	go	SCONJ	CS	_	16	mark	_	_
+15	oahppit	oahppi	NOUN	N	Case=Nom|Number=Plur	16	nsubj	_	_
+16	sávvet	sávvat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ávvir ii ožžon rektor Mats Steinfjella jearahallamii.
+1	Ávvir	ávvir	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
+2	ii	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	3	aux:neg	_	_
+3	ožžon	oažžut	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	rektor	rektor	NOUN	N	Case=Nom|Number=Sing	5	compound:nn	_	_
+5	Mats	Mats	PROPN	N	_	3	obj	_	_
+6	Steinfjella	Steinfjell	PROPN	N	Case=Acc|Number=Sing	5	flat	_	_
+7	jearahallamii	jearahallan	NOUN	N	Case=Ill|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ohppiidráđis lea stuora fápmu skuvllas dan_dihte go leat nu máŋggas geat hupmet ovttas áššiid birra.
+1	Ohppiidráđis	ohppiidráđđi	NOUN	N	Case=Loc|Number=Sing	2	obl	_	_
+2	lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	stuora	stuoris	ADJ	A	_	4	amod	_	_
+4	fápmu	fápmu	NOUN	N	Case=Nom|Number=Sing	2	nsubj	_	_
+5	skuvllas	skuvla	NOUN	N	Case=Loc|Number=Sing	2	obl	_	_
+6	dan_dihte	dan_dihte	ADV	Adv	_	2	advmod	_	_
+7	go	go	SCONJ	CS	_	8	mark	_	_
+8	leat	leat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+9	nu	nu	ADV	Adv	_	10	advmod	_	_
+10	máŋggas	máŋggas	NOUN	N	Case=Nom|Number=Sing|PronType=Coll	8	nsubj	_	_
+11	geat	gii	PRON	Pron	Case=Nom|Number=Plur|PronType=Rel	12	nsubj	_	_
+12	hupmet	hupmat	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	ovttas	ovttas	ADV	Adv	_	12	advmod	_	_
+14	áššiid	ášši	NOUN	N	Case=Gen|Number=Plur	12	obl	_	_
+15	birra	birra	ADP	Po	_	14	case	_	SpaceAfter=No
+16	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = 7
+# text = Miehtá čájáhuslanja lea lebbejuvvon plastihkkagovččas ja gávcci máná njuni ovddas lea čáhcemála.
+1	Miehtá	miehtá	ADP	Pr	_	2	case	_	_
+2	čájáhuslanja	čájáhuslatnja	NOUN	N	Case=Gen|Number=Sing	4	obl	_	_
+3	lea	leat	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	lebbejuvvon	lebbet	VERB	V*	Aspect=Perf|VerbForm=Part|Voice=Pass	0	root	_	_
+5	plastihkkagovččas	plastihkkagovččas	NOUN	N	Case=Nom|Number=Sing	4	nsubj	_	_
+6	ja	ja	CCONJ	CC	_	4	cc	_	_
+7	gávcci	gávcci	NUM	Num	Case=Gen|Number=Sing|NumType=Card	8	nummod	_	_
+8	máná	mánná	NOUN	N	Case=Gen|Number=Sing	9	nmod:poss	_	_
+9	njuni	njunni	NOUN	N	Case=Gen|Number=Sing	11	obl	_	_
+10	ovddas	ovddas	ADP	Po	_	9	case	_	_
+11	lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+12	čáhcemála	čáhcemála	NOUN	N	Case=Nom|Number=Sing	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	CLB	_	4	punct	_	_
+
+# sent_id = 8
+# text = Lea meara láhkai go das oidnojit bárut.
+1	Lea	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	meara	mearra	NOUN	N	Case=Gen|Number=Sing	1	obl	_	_
+3	láhkai	láhkai	ADP	Po	_	2	case	_	_
+4	go	go	SCONJ	CS	_	6	mark	_	_
+5	das	dat	PRON	Pron	Case=Loc|Number=Sing|PronType=Dem	6	obl	_	_
+6	oidnojit	oidnot	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	bárut	bárru	NOUN	N	Case=Nom|Number=Plur	6	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	CLB	_	1	punct	_	_
+
+# sent_id = 9
+# text = Su dieđu mielde vuorru boađášii vulos joga maŋŋeleappos, geassemánus, go čáhci liegganišgoahtá, iige ná árrat.
+1	Su	son	PRON	Pron	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
+2	dieđu	diehtu	NOUN	N	Case=Gen|Number=Sing	5	obl	_	_
+3	mielde	mielde	ADP	Po	_	2	case	_	_
+4	vuorru	vuorru	NOUN	N	Case=Nom|Number=Sing	5	nsubj	_	_
+5	boađášii	boahtit	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	vulos	vulos	ADP	Pr	_	7	case	_	_
+7	joga	johka	NOUN	N	Case=Gen|Number=Sing	5	obl	_	_
+8	maŋŋeleappos	maŋŋeleappos	ADV	Adv	_	5	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	CLB	_	5	punct	_	_
+10	geassemánus	geassemánnu	NOUN	N	Case=Loc|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	CLB	_	14	punct	_	_
+12	go	go	SCONJ	CS	_	14	mark	_	_
+13	čáhci	čáhci	NOUN	N	Case=Nom|Number=Sing	14	nsubj	_	_
+14	liegganišgoahtá	liegganit	VERB	V*	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	CLB	_	14	punct	_	_
+16	iige	ii	AUX	V	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	5	aux:neg	_	_
+17	ná	ná	ADV	Adv	_	5	advmod	_	_
+18	árrat	árrat	ADV	Adv	_	5	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	CLB	_	5	punct	_	_
+
+# sent_id = 11
+# text = Dan duođaštit čállosat maid politihkkarat leat čálašan gieskat e-poasttain ja maid leat mediai suođđan.
+1	Dan	dat	PRON	Pron	Case=Acc|Number=Sing|PronType=Dem	2	obj	_	_
+2	duođaštit	duođaštit	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	čállosat	čálus	NOUN	N	Case=Nom|Number=Plur	2	nsubj	_	_
+4	maid	mii	PRON	Pron	Case=Acc|Number=Plur|PronType=Rel	7	obj	_	_
+5	politihkkarat	politihkar	NOUN	N	Case=Nom|Number=Plur	7	nsubj	_	_
+6	leat	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	čálašan	čálašit	VERB	V	Aspect=Perf|VerbForm=Part	3	acl:relcl	_	_
+8	gieskat	gieskat	ADV	Adv	_	7	advmod	_	_
+9	e-poasttain	e-poasta	NOUN	N	Case=Loc|Number=Plur	7	obl	_	_
+10	ja	ja	CCONJ	CC	_	7	cc	_	_
+11	maid	mii	PRON	Pron	Case=Acc|Number=Plur|PronType=Rel	14	obj	_	_
+12	leat	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	mediai	media	NOUN	N	Case=Ill|Number=Sing	14	obl	_	_
+14	suođđan	suođđat	VERB	V	Aspect=Perf|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	CLB	_	2	punct	_	_
