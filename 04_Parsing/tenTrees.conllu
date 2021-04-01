@@ -152,3 +152,20 @@
 13	mediai	media	NOUN	N	Case=Ill|Number=Sing	14	obl	_	_
 14	suođđan	suođđat	VERB	V	Aspect=Perf|VerbForm=Part	9	acl:relcl	_	SpaceAfter=No
 15	.	.	PUNCT	CLB	_	2	punct	_	_
+
+# sent_id = 12
+# text = Gaskavahku eahkeda lei Kárášjoga kulturvisttis álbmotčoahkkin gosa ledje sullii 50 olbmo boahtán.
+1	Gaskavahku	gaskavahkku	NOUN	N	Case=Gen|Number=Sing	2	nmod:poss	_	_
+2	eahkeda	eahket	NOUN	N	Case=Gen|Number=Sing	3	obl	_	_
+3	lei	leat	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Kárášjoga	Kárášjohka	PROPN	N	Case=Gen|Number=Sing	5	nmod:poss	_	_
+5	kulturvisttis	kulturvisti	NOUN	N	Case=Loc|Number=Sing	3	obl	_	_
+6	álbmotčoahkkin	álbmotčoahkkin	NOUN	N	Case=Nom|Number=Sing	3	nsubj	_	_
+7	gosa	gosa	ADV	Adv	_	12	advmod	_	_
+8	ledje	leat	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+9	sullii	sullii	ADV	Adv	_	10	advmod	_	_
+10	50	50	NUM	Num	Case=Nom|Number=Sing|NumType=Card	11	nummod	_	_
+11	olbmo	olmmoš	NOUN	N	Case=Gen|Number=Sing	12	nsubj	_	_
+12	boahtán	boahtit	VERB	V	Aspect=Perf|VerbForm=Part	6	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	CLB	_	3	punct	_	_
+
